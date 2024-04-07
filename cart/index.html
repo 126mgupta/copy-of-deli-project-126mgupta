@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+<!-- <h1>Cart</h1>
+<table id="cartTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total:</td>
+            <td id="totalPrice">0</td>
+        </tr>
+    </tfoot>
+</table>
+
+<button id="clearCart">Clear Cart</button>
+
+
+<div id="cart"></div>
+
+<h1>Cart</h1>
+<ul id="cartItems"></ul>
+<p>Total: $<span id="totalPrice">0.00</span></p>
+<button onclick="clearCart()">Clear Cart</button>
+<script src="script.js"></script> -->
+
+<h1>Cart</h1>
+<ul id="cartItems"></ul>
+
+<script>
+    const cart = [];
+
+    function displayCart() {
+        const cartItems = document.getElementById('cartItems');
+        cartItems.innerHTML = '';
+        cart.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = `${item.name} - $${item.price}`;
+            cartItems.appendChild(li);
+        });
+    }
+
+    displayCart();
+</script>
+
+</body>
+</html>

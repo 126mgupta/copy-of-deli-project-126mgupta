@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLT</title>
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="../" class="Logo">Maya<span>Gupta</span></a>
+    <nav class="navbar">
+        <a href="../">Home</a>
+        <a href="#">About</a>
+    </nav>
+    <div class="activity-section">
+        <i class='fa fa-shopping-cart' style="font-size:24px"></i>
+    </div>
+</header>
+
+<h1>
+    Pre-Made BLT Sandwich
+</h1>
+
+<img
+        src="https://static.vecteezy.com/system/resources/previews/025/067/200/original/sandwich-with-ai-generated-free-png.png"
+>
+<h2>
+    This BLT Sandwich contains two slices of wheat bread, carefully placed bacon, crispy lettuce, buttery cheddar cheese, and juicy tomatoes.
+</h2>
+
+<button onclick="addToCart('{BLT}', '{$15}')">Add to Cart</button>
+
+<script>
+    function addToCart(name, price) {
+        const item = { name, price };
+        cart.push(item);
+    }
+</script>
+
+
+</body>
+</html>

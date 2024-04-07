@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RB</title>
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="../" class="Logo">Maya<span>Gupta</span></a>
+    <nav class="navbar">
+        <a href="../">Home</a>
+        <a href="#">About</a>
+    </nav>
+    <div class="activity-section">
+        <i class='fa fa-shopping-cart' style="font-size:24px"></i>
+    </div>
+</header>
+
+<p>hi</p>
+<p>hi</p>
+
+<h1></h1>
+
+<h2>
+    Pre-Made Reuben Sandwich
+</h2>
+
+<img
+        src="https://static.vecteezy.com/system/resources/previews/035/983/430/original/ai-generated-reuben-sandwich-on-transparent-background-image-png.png"
+>
+
+<h3>
+    This Reuben Sandwich contains thinly sliced beef, swiss cheese, and crispy lettuce.
+</h3>
+
+<button onclick="addToCart('{RB}', {$15})">Add to Cart</button>
+
+<script>
+    function addToCart(name, price) {
+        const item = { name, price };
+        cart.push(item);
+    }
+</script>
+
+</body>
+</html>

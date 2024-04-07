@@ -1,0 +1,95 @@
+body {
+    font-family: system-ui;
+    height: 100vh;
+    width: 100%;
+    background: #ece8e5;
+
+}
+
+
+.header {
+    position:  fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgb(117, 117, 117);
+}
+
+
+.header .Logo {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.header a span {
+    color: palevioletred;
+}
+
+
+.header .navbar a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px ;
+    border-radius: 5px;
+
+
+}
+
+
+.activity-section i {
+    color: #ffffff;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    background: palevioletred;
+    transition: .3s;
+}
+
+
+.activity-section i:hover {
+    background: #000000;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    border: 0.7px solid #eae7e4;text-shadow: 2px 0 #d95c76, -2px 0 #d95c76, 0 2px #d95c76, 0 -2px #d95c76,
+1px 1px #d95c76, -1px -1px #d95c76, 1px -1px #d95c76, -1px 1px #d95c76;
+%: 100px;
+}
+
+.formrow {
+    font-size: 20px;
+    color: white;
+    border: 0.7px solid #eae7e4;text-shadow: 2px 0 #d95c76, -2px 0 #d95c76, 0 2px #d95c76, 0 -2px #d95c76,
+1px 1px #d95c76, -1px -1px #d95c76, 1px -1px #d95c76, -1px 1px #d95c76;
+%: 100px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+    border: 0.7px solid #eae7e4;text-shadow: 2px 0 #d95c76, -2px 0 #d95c76, 0 2px #d95c76, 0 -2px #d95c76,
+1px 1px #d95c76, -1px -1px #d95c76, 1px -1px #d95c76, -1px 1px #d95c76;
+%: 100px;
+}
+
+.condimentsLabel {
+    font-size: 20px;
+    color: white;
+    border: 0.7px solid #eae7e4;text-shadow: 2px 0 #d95c76, -2px 0 #d95c76, 0 2px #d95c76, 0 -2px #d95c76,
+1px 1px #d95c76, -1px -1px #d95c76, 1px -1px #d95c76, -1px 1px #d95c76;
+%: 100px;
+}
